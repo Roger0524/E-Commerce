@@ -1,10 +1,10 @@
 # 📦 Sistema de Almacenamiento y Consultas en MongoDB para un Catálogo E-commerce
 
 ## 📘 Descripción General
-Este proyecto implementa un sistema de almacenamiento y consulta de datos en **MongoDB** basado en un caso de estudio de comercio electrónico. El objetivo principal es diseñar, crear y consultar una base de datos documental denominada **e-commerce_db**, organizada en tres colecciones fundamentales: **productos**, **clientes** y **pedidos**.  
-Los documentos fueron generados de forma sintética para simular escenarios reales de inventarios, usuarios y transacciones. A partir de este modelo, se ejecutan operaciones CRUD, consultas con filtros y pipelines de agregación que permiten analizar precios, inventario, ventas y comportamiento básico del sistema.
+Este proyecto implementa un sistema de almacenamiento y consulta de datos en **MongoDB** basado en un caso de estudio de comercio electrónico. El proposito principal es diseñar, crear y consultar una base de datos documental denominada **e-commerce_db**, organizada en tres colecciones fundamentales: **productos**, **clientes** y **pedidos**.  
+Los documentos fueron generados para simular escenarios reales de inventarios, usuarios y transacciones. A partir de este modelo, se ejecutan operaciones CRUD, consultas con filtros y pipelines de agregación que permiten analizar precios, inventario, ventas y comportamiento básico del sistema.
 
-El proyecto sigue los lineamientos de la actividad académica sobre almacenamiento y consultas de datos en entornos NoSQL, estructurando una solución funcional, replicable y coherente con los principios del modelo documental de MongoDB.
+El proyecto sigue lineamientos sobre almacenamiento y consultas de datos en entornos NoSQL, estructurando una solución funcional, replicable y coherente con los principios del modelo documental de MongoDB.
 
 ---
 
@@ -12,13 +12,11 @@ El proyecto sigue los lineamientos de la actividad académica sobre almacenamien
 - **MongoDB Community Server** (motor NoSQL)
 - **MongoDB Compass** (herramienta GUI)
 - **JSON** (formato de documentos creados para la base)
-- **Git & GitHub** (control de versiones y repositorio)
-- **Markdown** (documentación del proyecto)
 
 ---
 
-## 🧾 Conjunto de Datos Generados
-Los documentos fueron creados exclusivamente para esta actividad, sin depender de fuentes externas. La estructura representa un sistema básico de comercio electrónico.
+## 🧾 Conjunto de Datos
+La estructura representa un sistema básico de comercio electrónico.
 
 - **Formato:** JSON  
 - **Colecciones y cantidad de documentos:**
