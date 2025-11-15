@@ -15,7 +15,7 @@ El proyecto sigue lineamientos sobre almacenamiento y consultas de datos en ento
 
 ---
 
-## 🧾 Conjunto de Datos
+## 💾 Conjunto de Datos
 La estructura representa un sistema básico de comercio electrónico.
 
 - **Formato:** JSON  
@@ -91,3 +91,7 @@ Pipelines para:
 - Analizar inventario  
 **Archivo:** `consultas_agregacion.md`
 
+---
+
+## 🗂️ Arquitectura del Proyecto
+El repositorio está organizado de manera clara y estructurada:
