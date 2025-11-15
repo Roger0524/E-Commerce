@@ -92,6 +92,3 @@ Pipelines para:
 **Archivo:** `consultas_agregacion.md`
 
 ---
-
-## 🗂️ Arquitectura del Proyecto
-El repositorio está organizado de manera clara y estructurada:
