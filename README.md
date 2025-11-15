@@ -21,9 +21,9 @@ La estructura representa un sistema básico de comercio electrónico.
 - **Formato:** JSON  
 - **Colecciones y cantidad de documentos:**
   - `productos` → **100** documentos (inventario)
-  - `clientes` → **10** documentos (usuarios)
-  - `pedidos` → **5** documentos (órdenes)
-- **Total:** **115 documentos**
+  - `clientes` → **30** documentos (usuarios)
+  - `pedidos` → **30** documentos (órdenes)
+- **Total:** **160 documentos**
 
 ### Variables principales:
 
@@ -90,9 +90,4 @@ Pipelines para:
 - Calcular promedios  
 - Analizar inventario  
 **Archivo:** `consultas_agregacion.md`
-
----
-
-## 🗂️ Arquitectura del Proyecto
-El repositorio está organizado de manera clara y estructurada:
 
