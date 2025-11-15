@@ -48,9 +48,6 @@ La base de datos **e-commerce_db** está diseñada bajo el modelo documental de 
 
 Cada colección contiene documentos con identificadores únicos (`ObjectId`), tipos de datos consistentes y estructuras coherentes al contexto de un catálogo de comercio electrónico.
 
-El diagrama del esquema se encuentra en:  
-➡️ `/imagenes/esquema_bd.png`
-
 ---
 
 ## 🚀 Implementación en MongoDB Compass
