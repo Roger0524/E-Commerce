@@ -1,0 +1,3 @@
+db.productos.aggregate([
+  { $group: { _id: null, precio_promedio: { $avg: "$precio" } } }
+]);

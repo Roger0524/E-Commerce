@@ -1,0 +1,1 @@
+db.productos.deleteOne({ sku: "P-1099" });

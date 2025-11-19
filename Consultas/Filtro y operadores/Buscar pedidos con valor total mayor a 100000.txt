@@ -1,0 +1,1 @@
+db.pedidos.find({ valor_total: { $gt: 100000 } });

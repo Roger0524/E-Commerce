@@ -1,0 +1,9 @@
+db.productos.insertOne({
+  sku: "P-1101",
+  nombre: "Bolso de cuero artesanal",
+  descripcion: "Bolso hecho a mano con cuero genuino.",
+  categoria: "Ropa",
+  precio: 185000,
+  cantidad: 25,
+  fecha_registro: new Date("2025-11-10")
+});

@@ -1,0 +1,3 @@
+db.pedidos.aggregate([
+  { $group: { _id: null, total_ventas: { $sum: "$valor_total" } } }
+]);

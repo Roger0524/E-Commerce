@@ -1,0 +1,33 @@
+// Insertar un producto
+db.productos.insertOne({
+  sku: "SKU900",
+  nombre: "Camiseta Deportiva Premium",
+  descripcion: "Camiseta transpirable para entrenamiento",
+  categoria: "Ropa",
+  precio: 45000,
+  cantidad: 35,
+  fecha_registro: ISODate("2025-03-10")
+});
+
+// Insertar un cliente
+db.clientes.insertOne({
+  usuario: "carlos_mendez",
+  telefono: 3205567890,
+  email: "carlos.mendez@example.com",
+  nombre: "Carlos Méndez",
+  pais: "Colombia"
+});
+
+// Insertar un pedido
+db.pedidos.insertOne({
+  pedido_id: "PED-001",
+  cliente_id: db.clientes.findOne({ usuario: "carlos_mendez" })._id,
+  lista_productos: [
+    { sku: "SKU900", cantidad: 2, precio: 45000 }
+  ],
+  valor_total: 90000,
+  estado: "Procesado",
+  fecha_pedido: ISODate("2025-03-15"),
+  direccion_envio: "Carrera 20 #45-18 Bogotá",
+  metodo_pago: "Tarjeta de crédito"
+});

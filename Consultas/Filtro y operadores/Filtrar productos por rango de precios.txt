@@ -1,0 +1,1 @@
+db.productos.find({ precio: { $gte: 50000, $lte: 200000 } });

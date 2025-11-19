@@ -1,0 +1,4 @@
+db.productos.updateOne(
+  { sku: "P-1001" },
+  { $set: { precio: 27000 } }
+);
