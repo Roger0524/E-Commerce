@@ -59,7 +59,7 @@ Cada colección contiene documentos con identificadores únicos (`ObjectId`), ti
 4. Primera colección: `productos`
 
 ### 🔹 2. Importación de documentos
-Los archivos JSON se encuentran en la carpeta `/dataset`.
+Los documentos se encuentran en la carpeta `JSON`.
 
 Procedimiento:
 1. Ingresar a la colección **productos** → **Import Data** → seleccionar `productos.json`  
@@ -73,12 +73,10 @@ Procedimiento:
 Las consultas están organizadas de forma modular en `/consultas` y son completamente ejecutables en MongoDB Compass:
 
 ### ✔️ Consultas básicas (CRUD)
-Inserción, selección, actualización y eliminación.  
-**Archivo:** `consultas_basicas.md`
+Inserción, selección, actualización y eliminación. 
 
 ### ✔️ Consultas con filtros y operadores
 Uso de operadores como `$gt`, `$lt`, `$regex`, `$and`, `$or`.  
-**Archivo:** `consultas_filtros.md`
 
 ### ✔️ Consultas de agregación
 Pipelines para:
@@ -86,6 +84,5 @@ Pipelines para:
 - Sumar valores  
 - Calcular promedios  
 - Analizar inventario  
-**Archivo:** `consultas_agregacion.md`
 
 ---
